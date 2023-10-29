@@ -1,8 +1,10 @@
 # Use case
 
 ### Untrack files which are already added in gitignore file
+
 #### Scenario  
-    Files were added (or push to remote git repository) before adding to `.gitignore` file.
+Files were added (or push to remote git repository) before adding to `.gitignore` file.
+
 #### Solution
     ````bash
     git rm -r --cache <path-to-file>
